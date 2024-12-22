@@ -1,79 +1,88 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <!-- Page setup -->
+    <!-- Meta Information for SEO -->
     <meta charset="utf-8">
-    <title>Innovative Design Build</title>
     <meta name="description" content="Big business projects while maintaining small business attitude.">
-    <meta name="author" content="Ahid Ghafoor founded Innovative Design Build in 1996.">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="stylesheet" type="image/png" href="style.css">
-  
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="author" content="Ahid Ghafoor, founder of Innovative Design Build in 1996.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <!-- Title of the website -->
+    <title>Innovative Design Build</title>
 
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    <!-- Link to Google Fonts (Roboto) and Normalize.css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Link to custom stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Favicon (optional) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     
-  </head>
-  
-  <body>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
+  </head>
+
+  <body>
+    <!-- Header Section with Logo and Navigation Menu -->
     <header id="header">
-      <img src="logo.PNG">
+      <div class="logo">
+        <img src="logo.PNG" alt="Innovative Design Build logo" />
+      </div>
       <h1>Innovative Design Build</h1>
       
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
+      <!-- Main Navigation Menu -->
+      <nav>
+        <ul class="main-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>                 
     </header>
-   
-    <div id="container">
+
+    <!-- Main Content Section -->
+    <main id="container">
       <div class="inner">
-        <div id="content"> 
+        <div id="content">
           
-          <div id="home" class="content-region hide">
+          <!-- Home Section -->
+          <section id="home" class="content-region">
             <h2>Home</h2>
             <p>
-              This is a simple website template published with Github Pages. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!
+              Welcome to Innovative Design Build, where we focus on big business projects with the small business attitude. <a href="https://innovativedb.github.io" target="_blank" rel="noopener noreferrer">
             </p>
-          </div>
+          </section>
           
-          <div id="about" class="content-region hide">
+          <!-- About Section -->
+          <section id="about" class="content-region">
             <h2>About</h2>
             <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
+              Established in 1996 by Ahid Ghafoor, Innovative Design Build has been providing innovative solutions with personalized attention. We focus on creating high-quality designs that transform spaces and bring ideas to life.
             </p>
-          </div>
+          </section>
           
-          <div id="contact" class="content-region hide">
+          <!-- Contact Section -->
+          <section id="contact" class="content-region">
             <h2>Contact</h2>
             <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
+              Interested in learning more or getting in touch? Reach out to us at <a href="mailto:innovativedb3@gmail.com">innovativedb3@gmail.com</a>. We look forward to hearing from you!
             </p>
-          </div>
-          
+          </section>
+
         </div>
       </div>
-    </div>
+    </main>
 
-    <footer>  
-      Footer region
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 Innovative Design Build. All Rights Reserved.</p>
     </footer>
     
-    <!-- Load additional JS scripts here -->
+    <!-- Load additional JavaScript -->
     <script type="text/javascript" src="script.js"></script>
-    
   </body>
 </html>
