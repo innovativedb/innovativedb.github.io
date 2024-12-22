@@ -54,10 +54,14 @@ html {
 header {
   background: rgba(0, 0, 0, 0.8);
   padding: 20px;
+  display: flex;
+  align-items: center; /* Align logo and title vertically */
+  justify-content: space-between; /* Space out logo and title */
 }
 
 .logo-container {
-  text-align: center; /* Align the content to the center */
+  display: flex;
+  align-items: center; /* Center logo vertically */
 }
 
 .logo {
@@ -77,6 +81,7 @@ h1 {
   margin: 0;
 }
 
+/* Main body styles */
 body {
   max-width: 800px;
   margin: 25px auto;
@@ -88,6 +93,7 @@ header, #content, footer {
   color: #FFFFFF;
 }
 
+/* Menu Links */
 ul.main-menu {
   margin: 0;
   padding: 0;
@@ -116,6 +122,7 @@ ul.main-menu li a.active {
   border-bottom-color: #EF6D3D;
 }
 
+/* Mobile Responsiveness */
 @media (max-width: 600px) {
   body {
     margin: 15px;
