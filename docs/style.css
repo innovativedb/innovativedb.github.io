@@ -51,37 +51,17 @@ html {
   background-size: cover;
 }
 
-header {
-  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background for header */
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+body {
+  max-width: 800px;
+  margin: 25px auto;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  display: inline-block;
-  width: 50px; /* Adjust the size of the logo */
-  height: auto; /* Maintain aspect ratio */
-  vertical-align: middle;
-  margin-right: 15px;
-}
-
-h1 {
-  display: inline-block;
-  font-size: 3.6rem;
-  line-height: 1.25;
-  font-weight: 300;
+header, #content, footer {
+  background: rgba(0,0,0,.8);
+  padding: 25px;
   color: #FFFFFF;
-  margin: 0;
 }
 
-/* Menu styles */
 ul.main-menu {
   margin: 0;
   padding: 0;
@@ -89,7 +69,6 @@ ul.main-menu {
   flex-wrap: wrap;
   justify-content: left;
   list-style: none;
-  background-color: rgba(0, 0, 0, 0.8); /* Make sure the menu has a gray background */
 }
 
 ul.main-menu li a {
@@ -111,7 +90,6 @@ ul.main-menu li a.active {
   border-bottom-color: #EF6D3D;
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 600px) {
   body {
     margin: 15px;
