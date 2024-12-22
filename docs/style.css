@@ -51,6 +51,32 @@ html {
   background-size: cover;
 }
 
+header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+
+.logo-container {
+  text-align: center; /* Align the content to the center */
+}
+
+.logo {
+  display: inline-block;
+  width: 50px; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+  vertical-align: middle; /* Align the logo vertically with the text */
+  margin-right: 15px; /* Adds spacing between the logo and the text */
+}
+
+h1 {
+  display: inline-block; /* Make the heading inline with the logo */
+  font-size: 3.6rem;
+  line-height: 1.25;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin: 0;
+}
+
 body {
   max-width: 800px;
   margin: 25px auto;
